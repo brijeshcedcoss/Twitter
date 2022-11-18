@@ -1,0 +1,257 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+/* variables */
+:root {
+  --color: #08b5fe;
+}
+/* left-menu */
+.menu-main {
+  padding-left: 10px;
+}
+.logo {
+  margin-left: 50px;
+  height: 64px;
+  width: 64px;
+}
+.menu {
+  margin-top: 25px;
+  margin-right: 21px;
+  height: 32px;
+  width: 32px;
+}
+#main {
+  display: flex;
+}
+#left {
+  width: 25%;
+}
+#mid {
+  width: 50%;
+}
+#right {
+  width: 25%;
+}
+.twitter {
+  margin-top: 25px;
+  width: 50%;
+  height: 40px;
+  background-color: var(--color);
+  color: white;
+  font-weight: bolder;
+  font-size: 16px;
+  border-radius: 1.2rem;
+  border: none;
+  margin-left: 25px;
+}
+.home {
+  color: var(--color);
+}
+.profile {
+  border-radius: 50%;
+}
+/* mid */
+/* create post */
+.create-post {
+  padding-bottom: 12px;
+  border-bottom: 7px solid rgb(214, 214, 214);
+}
+.mid-top {
+  display: flex;
+}
+.mid-top > img {
+  float: right;
+  margin-left: 80%;
+  padding: 20px;
+}
+.mid-top > h2 {
+  padding: 20px;
+}
+.dp {
+  margin-left: 3%;
+  width: 60px;
+  height: 60px;
+}
+#post-input {
+  width: 80%;
+  height: 50px;
+  border: none;
+  outline: none;
+  margin-top: 20px;
+  font-size: large;
+}
+.mid-input {
+  display: flex;
+  align-items: center;
+}
+.mid-post {
+  margin-left: 12%;
+  height: auto;
+  display: flex;
+}
+.mid-post > img {
+  height: 24px;
+  width: 24px;
+  padding: 5px;
+}
+.mid-post > button {
+  margin-left: 65%;
+  height: 50px;
+  width: 100px;
+  font-size: large;
+  border-radius: 1.5rem;
+  color: aliceblue;
+  background-color: var(--color);
+  font-weight: bolder;
+  border: none;
+  margin-top: 0;
+}
+.feed {
+  /* margin-top: 15px; */
+  margin-left: 3%;
+}
+.post {
+  margin-top: 15px;
+  display: flex;
+}
+.userImg {
+  margin-right: 15px;
+}
+.userImg > img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+}
+.name {
+  display: flex;
+}
+.name > p {
+  color: grey;
+  margin-left: 5px;
+}
+.name > h2 {
+  color: grey;
+  width: 35px;
+  height: 20px;
+  float: right;
+  margin-left: 63%;
+}
+.post-content {
+  margin-top: 10px;
+  font-size: 20px;
+  word-spacing: 3px;
+}
+.post-content > p > a {
+  color: var(--color);
+  text-decoration: none;
+}
+.like-area {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  display: flex;
+  align-content: space-between;
+  justify-content: center;
+  text-align: center;
+}
+.like-area > div > img {
+  height: 24px;
+  width: 24px;
+}
+.like-area > div {
+  display: flex;
+  width: 25%;
+  text-align: center;
+  align-items: center;
+}
+.like-area > div > p {
+  padding-left: 10px;
+}
+.post-content > img {
+  margin-top: 10px;
+  height: auto;
+  width: 100%;
+  max-width: 38.5rem;
+  border-radius: 10px;
+}
+/* right side bar */
+#right {
+  align-items: center;
+}
+#search > input {
+  margin: 10px;
+  margin-left: 20px;
+  font-size: 16.5px;
+  border: none;
+  outline: none;
+  padding-left: 10px;
+  border-radius: 1.2rem;
+  height: 35px;
+  width: 87%;
+  background-color: rgb(219, 219, 219);
+}
+#news-card {
+  margin-top: 10px;
+  padding: 10px;
+  margin-left: 26px;
+  border-radius: 10px;
+  width: 85%;
+  background-color: rgb(236, 236, 236);
+}
+#top-heading {
+  display: flex;
+}
+#top-heading > h2 {
+  width: 90%;
+}
+#top-heading > img {
+  height: 24px;
+  width: 24px;
+}
+.news {
+  margin-top: 10px;
+}
+.news > .heading {
+  font-size: large;
+  color: rgb(119, 119, 119);
+}
+.news-feed-card {
+  display: flex;
+  border: 1px solid grey;
+  border-radius: 7px;
+  margin-top: 10px;
+  padding-bottom: 0;
+}
+.news-feed-img > img {
+  margin: 0;
+  padding: 0;
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  height: 65px;
+  width: 65px;
+}
+.news-feed-card-heading {
+  padding-left: 10px;
+  padding-top: 5px;
+}
+.space {
+  padding-top: 5px;
+  color: rgb(119, 119, 119);
+}
+.below-text {
+  padding-top: 5px;
+  color: rgb(119, 119, 119);
+}
+.txt {
+  padding: 5px;
+  color: rgb(119, 119, 119);
+}
+.pad {
+  padding-top: 5px;
+  margin-bottom: 5px;
+}
+#show-more {
+  padding-top: 10px;
+  color: var(--color);
+}
